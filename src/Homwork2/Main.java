@@ -23,6 +23,11 @@ public class Main {
         System.out.println("Разница в весе боксеров " + weightDifferenceBetweenBoxers);
 
         // Задача 3
+
+        // ШТ
+
+
+        //Граммы
         byte banana = 80;
         short milk = 210;
         short iceСream = 200;
