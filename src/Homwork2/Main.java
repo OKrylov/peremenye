@@ -73,6 +73,10 @@ public class Main {
         System.out.println("Срендее значение " + average + " грамм");
         System.out.println("Среднее количество дней " + averageDey + " дней" );
 
+        // Задача 5
+
+
+
 
 
 
