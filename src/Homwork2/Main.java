@@ -87,7 +87,27 @@ public class Main {
 
 
         int Denis = 83690;
-        int Kristina = 76230;
+        byte increaseDenis = 10;
+        int annualIncomeВeforeDenis = Denis * 12;
+        System.out.println("Годовой доход Дениса " + annualIncomeВeforeDenis + " руб");
+        float withIncreaseDenis = Denis * 0.10f + Denis;
+        System.out.println("Доход Дениса с прибавкой " + withIncreaseDenis + " руб");
+        float allWithDenis = withIncreaseDenis * 12f;
+        System.out.println("Годовой доход Дениса после повышения " + allWithDenis + " руб");
+        float differenceInAnnualIncomeDenis = allWithDenis - annualIncomeВeforeDenis;
+        System.out.println("Разница годовых доходов Дениса " + differenceInAnnualIncomeDenis + " руб");
+
+
+        int Kris = 76230;
+        byte increaseKris = 10;
+        int annualIncomeВeforeKris = Kris * 12;
+        System.out.println("Годовой доход Кристины " + annualIncomeВeforeKris + " руб");
+        float withIncreaseKris = Kris * 0.10f + Kris;
+        System.out.println("Доход Кристины с прибавкой " + withIncreaseKris + " руб");
+        float allWithKris = withIncreaseKris * 12f;
+        System.out.println("Годовой доход Кристины после повышения " + allWithKris + " руб");
+        float differenceInAnnualIncomeKris = allWithKris - annualIncomeВeforeKris;
+        System.out.println("Разница годовых доходов Кристины " + differenceInAnnualIncomeKris + " руб");
 
 
 
