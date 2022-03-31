@@ -65,9 +65,16 @@ public class Main {
         float loseWeightInGrams = loseWeight * KilogramsInGrams;
         System.out.println("Êîëè÷åñòâî ãğàìì " + loseWeightInGrams + " â êã");
         float daysTrainerĞrogram1 = loseWeightInGrams / trainerĞrogram1;
-        float daesTrainerĞrogram2 = loseWeightInGrams / trainerĞrogram2;
+        float daysTrainerĞrogram2 = loseWeightInGrams / trainerĞrogram2;
+        float average = (trainerĞrogram1 + trainerĞrogram2) / 2;
+        float averageDey = loseWeightInGrams / average;
         System.out.println("Äèåòà íîìåğ 1- " + daysTrainerĞrogram1 + " äíåé");
-        System.out.println("Äèåòà íîìåğ 2- " + daesTrainerĞrogram2 + " äíåé");
+        System.out.println("Äèåòà íîìåğ 2- " + daysTrainerĞrogram2 + " äíåé");
+        System.out.println("Ñğåíäåå çíà÷åíèå " + average + " ãğàìì");
+        System.out.println("Ñğåäíåå êîëè÷åñòâî äíåé " + averageDey + " äíåé" );
+
+
+
 
 
 
