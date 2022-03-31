@@ -23,16 +23,33 @@ public class Main {
         System.out.println("Разница в весе боксеров " + weightDifferenceBetweenBoxers);
 
         // Задача 3
+        byte banana = 5;
+        byte gramm = 80;
+        int weight = banana * gramm;
+        System.out.println("Вес бананов " + weight + " грамм");
 
-        // ШТ
+        // milk
+        short allmilkMl = 200;
+        short milkMl = 100;
+        short milkGm = 105;
+        int milkThings = allmilkMl / milkMl;
+        System.out.println("Количество бутылок молока " + milkThings + " шт");
+        short milkTheings = 2;
+        int allmilkGr = milkGm * milkThings;
+        System.out.println("Количество молока " + allmilkGr + " Грамм");
+
+        // eggs
+        byte eggs = 4;
+        short eggsGm = 70;
+        int allEggsGm = eggs * eggsGm;
+        System.out.println("Вес яиц " + allEggsGm + " грамм");
 
 
-        //Граммы
-        byte banana = 80;
+        byte allBanana = 80;
         short milk = 210;
         short iceСream = 200;
         short aggs = 280;
-        int mixAll = banana + milk + iceСream + aggs;
+        int mixAll = allBanana + milk + iceСream + aggs;
         System.out.println("Смешать все в блендере " + mixAll + " грамм");
 
 
