@@ -74,6 +74,22 @@ public class Main {
         System.out.println("Среднее количество дней " + averageDey + " дней" );
 
         // Задача 5
+        int Masha = 67760;
+        byte increaseMasha = 10;
+        int annualIncomeВeforeMasha = Masha * 12;
+        System.out.println("Годовой доход Маши " + annualIncomeВeforeMasha + " руб");
+        float withIncreaseMasha = Masha * 0.10f + Masha;
+        System.out.println("Доход Маши с прибавкой " + withIncreaseMasha + " руб");
+        float allWithMasha = withIncreaseMasha * 12f;
+        System.out.println("Годовой доход Маши после повышения " + allWithMasha + " руб");
+        float differenceInAnnualIncomeMasha = allWithMasha - annualIncomeВeforeMasha;
+        System.out.println("Разница годовых доходов Маши " + differenceInAnnualIncomeMasha + " руб");
+
+
+        int Denis = 83690;
+        int Kristina = 76230;
+
+
 
 
 
