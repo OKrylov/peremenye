@@ -51,6 +51,24 @@ public class Main {
         short aggs = 280;
         int mixAll = allBanana + milk + iceÑream + aggs;
         System.out.println("Ñìåøàòü âñå â áëåíäåğå " + mixAll + " ãğàìì");
+        short allProducts = 770;
+        float kilogram = 1000L;
+        float inKilogram = kilogram / allProducts;
+        System.out.println("Âåñ ïğîäóêòîâ " + inKilogram + " â êã.");
+
+
+        // Çôäà÷à 4
+        byte loseWeight = 7;
+        short trainerĞrogram1 = 250;
+        short trainerĞrogram2 = 500;
+        float KilogramsInGrams = 1000L;
+        float loseWeightInGrams = loseWeight * KilogramsInGrams;
+        System.out.println("Êîëè÷åñòâî ãğàìì " + loseWeightInGrams + " â êã");
+        float daysTrainerĞrogram1 = loseWeightInGrams / trainerĞrogram1;
+        float daesTrainerĞrogram2 = loseWeightInGrams / trainerĞrogram2;
+        System.out.println("Äèåòà íîìåğ 1- " + daysTrainerĞrogram1 + " äíåé");
+        System.out.println("Äèåòà íîìåğ 2- " + daesTrainerĞrogram2 + " äíåé");
+
 
 
 
